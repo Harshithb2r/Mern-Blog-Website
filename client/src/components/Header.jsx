@@ -78,6 +78,13 @@ export default function Header() {
                 <Navbar.Link active={path === "/about"} as={'div'}>
                     <Link to='/about'>Blogs</Link>
                 </Navbar.Link>
+                <Navbar.Link>
+                    {currentUser ? (
+                        <Navbar.Link active={path === "/dashboard"} as={'div'}>
+                            <Link to='/dashboard'>Dashboard</Link>
+                        </Navbar.Link>
+                    ) : null}
+                </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
     )
