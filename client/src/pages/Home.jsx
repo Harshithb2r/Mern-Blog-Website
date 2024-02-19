@@ -15,11 +15,11 @@ export default function Home() {
 
     return (
         <div>
-            <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
-                <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog</h1>
+            <div className='flex flex-col gap-6 p-24 px-3 max-w-6xl mx-auto '>
+                <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog!</h1>
                 <p className='text-gray-500 text-xs sm:text-sm'>
-                    Here you'll find a variety of articles and tutorials on topics such as
-                    web development, software engineering, and programming languages.
+                    This is your go-to hub for all things web development. Dive into our collection of blogs covering HTML, CSS, JavaScript, React, and more. Whether you're a beginner or a seasoned pro, we've got you covered with insightful content to fuel your web development journey.
+                    Explore our extensive collection of blogs covering a wide range of topics, including front-end and back-end development, responsive design, UX/UI principles, best practices, and so much more. Whether you're looking to sharpen your skills, learn something new, or simply stay informed about the latest trends and technologies, you'll find everything you need right here.
                 </p>
                 <Link
                     to='/search'
