@@ -103,14 +103,14 @@ export default function CreatePost() {
                     >
                         <option value='uncategorized'>Select a category</option>
                         <option value='javascript'>JavaScript</option>
-                        <option value='nextjs'>HTML</option>
-                        <option value='nextjs'>CSS</option>
+                        <option value='html'>HTML</option>
+                        <option value='css'>CSS</option>
                         <option value='reactjs'>React.js</option>
-                        <option value='nextjs'>Next.js</option>
-                        <option value='nextjs'>Angular</option>
-                        <option value='nextjs'>MongoDb</option>
-                        <option value='nextjs'>Node</option>
-                        <option value='nextjs'>Express</option>
+                        <option value='angular'>Angular</option>
+                        <option value='mongodb'>MongoDb</option>
+                        <option value='node'>Node</option>
+                        <option value='express'>Express</option>
+                        <option value='others'>Other</option>
                     </Select>
                 </div>
                 <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
