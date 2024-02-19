@@ -95,11 +95,15 @@ export default function Header() {
                     <Link to='/about'>Blogs</Link>
                 </Navbar.Link>
                 <Navbar.Link>
-                    {currentUser ? (
+                    {currentUser.isAdmin ? (
                         <Navbar.Link active={path === "/dashboard"} as={'div'}>
                             <Link to='/dashboard'>Dashboard</Link>
                         </Navbar.Link>
-                    ) : null}
+                    ) :
+                        <Navbar.Link active={path === "/contact"} as={'div'}>
+                            <Link to='/contact'>Contact Us</Link>
+                        </Navbar.Link>
+                    }
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
